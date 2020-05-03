@@ -68,12 +68,14 @@ const fieldGoal: Formation[] = [
 		off: {
 			K: 1,
 			P: 1,
-			OL: 9,
+			OL: 7,
+			TE: 2,
 		},
 		def: {
 			DL: 6,
-			LB: 3,
-			S: 2,
+			LB: 2,
+			CB: 2,
+			S: 1,
 		},
 	},
 ];
@@ -82,14 +84,18 @@ const kickoff: Formation[] = [
 	{
 		off: {
 			K: 1,
-			LB: 5,
-			S: 3,
+			LB: 4,
+			S: 2,
 			CB: 2,
+			WR: 2,
 		},
 		def: {
-			KR: 2,
-			LB: 5,
-			S: 4,
+			KR: 1,
+			RB: 2,
+			WR: 1,
+			LB: 4,
+			CB: 1,
+			S: 2,
 		},
 	},
 ];
@@ -98,14 +104,16 @@ const punt: Formation[] = [
 	{
 		off: {
 			P: 1,
-			RB: 1,
-			OL: 7,
+			RB: 2,
+			TE: 1,
+			OL: 5,
 			CB: 2,
 		},
 		def: {
 			PR: 1,
-			DL: 6,
-			S: 4,
+			DL: 4,
+			LB: 4,
+			WR: 2,
 		},
 	},
 ];
