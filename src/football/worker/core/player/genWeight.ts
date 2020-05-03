@@ -1,7 +1,7 @@
 import { random } from "../../../../deion/worker/util";
 
-const MIN_WEIGHT = 155;
-const MAX_WEIGHT = 305;
+const MIN_WEIGHT = 160;
+const MAX_WEIGHT = 380;
 
 const genHeight = (hgt: number, stre: number) => {
 	// Weight in pounds (from minWeight to maxWeight)
