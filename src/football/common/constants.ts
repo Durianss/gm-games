@@ -44,6 +44,13 @@ const COMPOSITE_WEIGHTS: CompositeWeights<RatingKey> = {
 			label: "H",
 		},
 	},
+	routeRunning: {
+		ratings: ["rtr", "spd"],
+		weights:[1, 0.3],
+		skill: {
+			label: "RtR"
+		},
+	},
 	gettingOpen: {
 		ratings: ["hgt", "spd", "rtr", "hnd"],
 		weights: [1, 1, 2, 1],
@@ -85,7 +92,10 @@ const COMPOSITE_WEIGHTS: CompositeWeights<RatingKey> = {
 	},
 	tackling: {
 		ratings: ["spd", "stre", "tck"],
-		weights: [1, 1, 1],
+		weights: [0.2, 0.7, 1],
+		skill: {
+			label: "T"
+		},
 	},
 	avoidingSacks: {
 		ratings: ["thv", "elu", "stre"],
